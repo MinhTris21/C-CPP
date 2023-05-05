@@ -1,13 +1,17 @@
-#include <stdio.h>
-#include <conio.h>
-#include <math.h>
-#include <time.h>
-#include <string.h>
+#include <iostream>
+
+using namespace std;
 
 int main() {
-	// Declare character variable c and assign value 'a' to c
-	char c = '\usa';
-	// Display c on the screen
-	printf("%c", c);
-	return 0;
+  int n;
+  cin >> n;
+
+  for (int i = 0; i < n; i++) {
+    for (int j = 0; j <= i; j++) {
+      cout << "*";
+    }
+    cout << endl;
+  }
+
+  return 0;
 }

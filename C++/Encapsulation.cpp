@@ -57,7 +57,7 @@ int main(){
     h1.BaseClassDisplay(1);
     Humans h2("7 chuon","IG model","Undefined");      //second input.
     h2.BaseClassDisplay(2);
-    Humans h3("TrisTheConquor","motherfucking hcmuser","sometime Male, sometime female");
+    Humans h3("TrisTheConquor","Student","Male");
     h3.BaseClassDisplay(3);
     return 0;
 }

@@ -14,7 +14,7 @@ bool isPerfectNumber(int n) {
 }
 
 int main() {
-    cout << "Các số hoàn hảo trong khoảng từ 1 đến 1000:" << endl;
+    cout << "Perfect numbers from 1-1000:" << endl;
     for (int i = 1; i <= 10000; i++) {
         if (isPerfectNumber(i)) {
             cout << i << " ";

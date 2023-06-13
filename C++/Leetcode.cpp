@@ -51,7 +51,29 @@ int main(){
         return x;
     }
 */
-int main(){
-    char ch=176;
-    printf("Today's temperature was 23%cC",ch);
-}
+class Solution {
+public:
+    int searchInsert(vector<int>& nums, int target) {
+        int index = 0;
+        bool test = false;
+        for (int i = 0; i < nums.size(); i++)
+        {
+            if (nums[i] == target)
+            {
+                index = i;
+                test = true;
+                return index; }
+        }
+        if (test == false)
+        {
+            nums.push_back(target);
+            sort(nums.begin(),nums.end());
+        }
+        for (int j = 0; j < nums.size(); j++)
+        {
+            if (nums[j] == target)
+                index = j;
+        }
+        return index;
+    }
+};

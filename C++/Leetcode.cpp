@@ -5,6 +5,7 @@
 #include <cstdio>
 #include <vector>
 #include <algorithm>
+
 /*          PROBLEM 1. TWO SUM, NON-VECTOR SOLUTION 
 int main(){
     int n;
@@ -32,3 +33,25 @@ int main(){
     }
 }
 */
+/*
+int main(){
+        int x;
+        int temp;
+        for (int i = 0; i< nums.size(); i++)
+        {
+            for (int j=i+1; j<nums.size(); j++){
+                if (nums[i]>nums[j])
+                {
+                    temp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = temp;
+                }
+            }
+        }
+        return x;
+    }
+*/
+int main(){
+    char ch=176;
+    printf("Today's temperature was 23%cC",ch);
+}

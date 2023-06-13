@@ -1,3 +1,4 @@
 
 tri	hoang	tri
 12	11
+trs	hoang	DRAW

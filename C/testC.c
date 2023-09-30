@@ -4,7 +4,6 @@
 #include <time.h>
 #include <string.h>
 int main(){
-  float phanso = (8.194-sqrt(pow(8.194,2)+4*0.00262*(1324-1309))) / (2*-0.00262);
-  float tpara = phanso + 30;
-  printf ("%0.2f",tpara);
+  int matrix[3][3] = {{1,2,3},{4,5,6}};
+  //  printf("%d",matrix);
 }

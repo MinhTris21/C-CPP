@@ -1,2 +1,2 @@
 
-int main
+        printf ("A[%d] = ",i);
